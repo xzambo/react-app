@@ -24,4 +24,4 @@ jobs:
           version_label: ${{ github.sha }}
           existing_bucket_name: elasticbeanstalk-us-west-2-347630426518
           region: us-west-2
-          deployment_package: deploy.zip
+          deployment_package: docker.zip
